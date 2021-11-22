@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family:'Libre Franklin', Arial, Helvetica, sans-serif ;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+#container{
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.logo{
+    width: 10vw;
+    margin-bottom: 5vw;
+}
+h1{
+    font-weight: 600;
+    color:hsl(0, 0%, 59%);
+    font-size: 4vw;
+    margin-bottom: 1.5vw;
+}
+h1 b{
+    font-size: 4vw;
+    font-weight: 700;
+    color:hsl(209, 33%, 12%);
+}
+h3{
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-bottom: 5vw;
+    color: hsl(209, 33%, 12%);
+    /* font-family: sans-serif; */
+}
+#email{
+    font-size: 1.5vw;
+    border-style: solid;
+    width: 45vw;
+    margin-right: 1vw;
+    margin-bottom: 10vw;
+    border-radius: 3vw;
+    padding: 1vw 2vw;
+    border-color:hsl(223, 100%, 88%);
+}
+#email:focus{
+    border-color:hsl(223, 100%, 88%);
+
+}
+::placeholder{
+    color: hsl(0, 0%, 59%);
+    font-size: 1.5vw;
+    opacity: 0.6;
+}
+#submit_btn{
+    font-size: 1.5vw;
+    font-weight:600;
+    border-style: solid;
+    border-radius: 3vw;
+    padding: 1vw 5vw;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    border-color: hsl(223, 87%, 63%);
+}
+#submit_btn:hover{
+    cursor: pointer;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-items: normal;
+}
+
+#dash{
+    width: 65vw;
+}
+footer{
+    margin-top: 50px;
+    /* position: absolute;
+    bottom: 0; */
+    display:flex;
+    flex-direction: column;
+}
+#social-links{
+    width: 40vw;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+#social-links a{
+    width: 2vw;
+    color: hsl(223, 87%, 63%);
+    border-radius: 50%;
+}
+#social-links a:hover{
+    cursor: pointer;
+}
+#social-links a i:hover{
+    border-radius: 50%;
+    padding: 3px;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+}
+#copyright{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 0.7vw;
+}
+.c-error .c-validation{
+    color: red !important;
+    background:white !important;
+    padding: 10px !important;
+    border-radius: 0 !important;
+    position: relative; 
+    display: inline-block !important;
+    box-shadow: 1px 1px 1px #aaaaaa;
+    margin-top: 10px;
+  }

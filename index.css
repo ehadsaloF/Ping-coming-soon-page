@@ -31,12 +31,12 @@ h1{
 }
 h1 b{
     font-size: 4vw;
-    font-weight: 700;
+    font-weight: 800;
     color:hsl(209, 33%, 12%);
 }
 h3{
     font-size: 1.5vw;
-    font-weight: 400;
+    font-weight: 800;
     margin-bottom: 5vw;
     color: hsl(209, 33%, 12%);
     /* font-family: sans-serif; */
@@ -126,4 +126,58 @@ footer{
     display: inline-block !important;
     box-shadow: 1px 1px 1px #aaaaaa;
     margin-top: 10px;
+  }
+  @media screen and (max-width:425px){
+    .logo{
+        width: 20vw;
+        margin-bottom:12vw;
+    }
+    h1, h1 b{
+        font-size: 7vw;
+        margin-bottom: 5vw;
+    }
+    h3{
+        font-size: 3.5vw;
+    }
+    form{
+        flex-direction: column;
+        align-items: stretch;
+    }
+    #email{
+        margin-right:0px;
+        margin-bottom: 2.5vw;
+        border-radius: 25vw;
+        padding: 3vw 31.5vw;
+    }
+    ::placeholder{
+        font-size: 3.5vw;
+        color: hsl(0, 0%, 59%);
+        opacity: 0.6;
+    }
+    #submit_btn{
+        font-size: 3vw;
+        border-radius: 25vw;
+        padding: 2vw 25vw;
+        margin-bottom: 15vw;
+    }
+    #dash{
+        width: 80vw;
+        margin-bottom: 7vw;
+    }
+    footer{
+        margin-top: 0px;
+    }
+    #social-links{
+        width: 60vw;
+        margin-bottom: 20px;
+    }
+    #social-links a{
+        width: 1.5vw;
+    }
+    #copyright{
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 1.5vw;
+    }
+
   }
